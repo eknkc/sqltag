@@ -4,11 +4,13 @@
   "main": "build.js",
   "license": "ISC",
   "scripts": {
-    "compile": "./node_modules/.bin/babel index.js -o build.js",
-    "prepublish": "npm run compile"
+    "build": "./node_modules/.bin/babel --presets es2015-node4,stage-3 index.js -o build.js",
+    "prepublish": "npm run build"
   },
   "dependencies": {},
   "devDependencies": {
-    "babel": "^5.8.21"
+    "babel-cli": "^6.4.0",
+    "babel-preset-es2015-node4": "^2.0.2",
+    "babel-preset-stage-3": "^6.3.13"
   }
 }
