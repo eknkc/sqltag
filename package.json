@@ -1,0 +1,14 @@
+{
+  "name": "@eknkc/sqltag",
+  "version": "1.2.0",
+  "main": "build.js",
+  "license": "ISC",
+  "scripts": {
+    "compile": "./node_modules/.bin/babel index.js -o build.js",
+    "prepublish": "npm run compile"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel": "^5.8.21"
+  }
+}
