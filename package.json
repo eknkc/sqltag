@@ -9,6 +9,6 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "babel": "^5.8.21"
+    "babel": "^6.3.26"
   }
 }
